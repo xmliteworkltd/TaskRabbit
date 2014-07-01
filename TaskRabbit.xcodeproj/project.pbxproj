@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8436E9AC196313E000ADF2D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436E9AB196313E000ADF2D5 /* Foundation.framework */; };
+		8436E9AE196313E000ADF2D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436E9AD196313E000ADF2D5 /* CoreGraphics.framework */; };
+		8436E9B0196313E000ADF2D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436E9AF196313E000ADF2D5 /* UIKit.framework */; };
+		8436E9B6196313E000ADF2D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8436E9B4196313E000ADF2D5 /* InfoPlist.strings */; };
+		8436E9B8196313E000ADF2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9B7196313E000ADF2D5 /* main.m */; };
+		8436E9BC196313E000ADF2D5 /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9BB196313E000ADF2D5 /* JPAppDelegate.m */; };
+		8436E9BE196313E000ADF2D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436E9BD196313E000ADF2D5 /* Images.xcassets */; };
+		8436E9C5196313E100ADF2D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436E9C4196313E100ADF2D5 /* XCTest.framework */; };
+		8436E9C6196313E100ADF2D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436E9AB196313E000ADF2D5 /* Foundation.framework */; };
+		8436E9C7196313E100ADF2D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436E9AF196313E000ADF2D5 /* UIKit.framework */; };
+		8436E9CF196313E100ADF2D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8436E9CD196313E100ADF2D5 /* InfoPlist.strings */; };
+		8436E9D1196313E100ADF2D5 /* TaskRabbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9D0196313E100ADF2D5 /* TaskRabbitTests.m */; };
+		8436E9EB1963150400ADF2D5 /* JPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9EA1963150400ADF2D5 /* JPBaseViewController.m */; };
+		8436E9EE1963153400ADF2D5 /* JPMainTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9ED1963153400ADF2D5 /* JPMainTabBarView.m */; };
+		8436E9F1196315A500ADF2D5 /* JPMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9F0196315A500ADF2D5 /* JPMenuViewController.m */; };
+		8436E9F5196316BD00ADF2D5 /* JPDataUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9F4196316BD00ADF2D5 /* JPDataUtility.m */; };
+		8436E9F81963173300ADF2D5 /* JPDateUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9F71963173300ADF2D5 /* JPDateUtility.m */; };
+		8436E9FB196317A600ADF2D5 /* JPFileUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E9FA196317A600ADF2D5 /* JPFileUtility.m */; };
+		8436EA08196319C400ADF2D5 /* JPMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436EA07196319C400ADF2D5 /* JPMoreViewController.m */; };
+		8436EA0C19631B5200ADF2D5 /* JPSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436EA0A19631B5200ADF2D5 /* JPSlideViewController.m */; };
+		8436EA0F19631C4D00ADF2D5 /* JPAnnounceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436EA0E19631C4D00ADF2D5 /* JPAnnounceViewController.m */; };
+		8436EA1219631C7400ADF2D5 /* JPNearByViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436EA1119631C7400ADF2D5 /* JPNearByViewController.m */; };
+		8436EA1519631CB400ADF2D5 /* JPTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436EA1419631CB400ADF2D5 /* JPTaskViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8436E9C8196313E100ADF2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8436E9A0196313E000ADF2D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8436E9A7196313E000ADF2D5;
+			remoteInfo = TaskRabbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8436E9A8196313E000ADF2D5 /* TaskRabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskRabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8436E9AB196313E000ADF2D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8436E9AD196313E000ADF2D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8436E9AF196313E000ADF2D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8436E9B3196313E000ADF2D5 /* TaskRabbit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskRabbit-Info.plist"; sourceTree = "<group>"; };
+		8436E9B5196313E000ADF2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8436E9B7196313E000ADF2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8436E9B9196313E000ADF2D5 /* TaskRabbit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskRabbit-Prefix.pch"; sourceTree = "<group>"; };
+		8436E9BA196313E000ADF2D5 /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
+		8436E9BB196313E000ADF2D5 /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
+		8436E9BD196313E000ADF2D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8436E9C3196313E100ADF2D5 /* TaskRabbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskRabbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8436E9C4196313E100ADF2D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8436E9CC196313E100ADF2D5 /* TaskRabbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskRabbitTests-Info.plist"; sourceTree = "<group>"; };
+		8436E9CE196313E100ADF2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8436E9D0196313E100ADF2D5 /* TaskRabbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskRabbitTests.m; sourceTree = "<group>"; };
+		8436E9E91963150400ADF2D5 /* JPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBaseViewController.h; sourceTree = "<group>"; };
+		8436E9EA1963150400ADF2D5 /* JPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBaseViewController.m; sourceTree = "<group>"; };
+		8436E9EC1963153400ADF2D5 /* JPMainTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMainTabBarView.h; sourceTree = "<group>"; };
+		8436E9ED1963153400ADF2D5 /* JPMainTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMainTabBarView.m; sourceTree = "<group>"; };
+		8436E9EF196315A500ADF2D5 /* JPMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMenuViewController.h; sourceTree = "<group>"; };
+		8436E9F0196315A500ADF2D5 /* JPMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMenuViewController.m; sourceTree = "<group>"; };
+		8436E9F21963161F00ADF2D5 /* JPMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPMacro.h; sourceTree = "<group>"; };
+		8436E9F3196316BD00ADF2D5 /* JPDataUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDataUtility.h; sourceTree = "<group>"; };
+		8436E9F4196316BD00ADF2D5 /* JPDataUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDataUtility.m; sourceTree = "<group>"; };
+		8436E9F61963173300ADF2D5 /* JPDateUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDateUtility.h; sourceTree = "<group>"; };
+		8436E9F71963173300ADF2D5 /* JPDateUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDateUtility.m; sourceTree = "<group>"; };
+		8436E9F9196317A600ADF2D5 /* JPFileUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFileUtility.h; sourceTree = "<group>"; };
+		8436E9FA196317A600ADF2D5 /* JPFileUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFileUtility.m; sourceTree = "<group>"; };
+		8436EA06196319C400ADF2D5 /* JPMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMoreViewController.h; sourceTree = "<group>"; };
+		8436EA07196319C400ADF2D5 /* JPMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMoreViewController.m; sourceTree = "<group>"; };
+		8436EA0A19631B5200ADF2D5 /* JPSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSlideViewController.m; sourceTree = "<group>"; };
+		8436EA0B19631B5200ADF2D5 /* JPSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSlideViewController.h; sourceTree = "<group>"; };
+		8436EA0D19631C4D00ADF2D5 /* JPAnnounceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAnnounceViewController.h; sourceTree = "<group>"; };
+		8436EA0E19631C4D00ADF2D5 /* JPAnnounceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAnnounceViewController.m; sourceTree = "<group>"; };
+		8436EA1019631C7400ADF2D5 /* JPNearByViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNearByViewController.h; sourceTree = "<group>"; };
+		8436EA1119631C7400ADF2D5 /* JPNearByViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNearByViewController.m; sourceTree = "<group>"; };
+		8436EA1319631CB400ADF2D5 /* JPTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPTaskViewController.h; sourceTree = "<group>"; };
+		8436EA1419631CB400ADF2D5 /* JPTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTaskViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8436E9A5196313E000ADF2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436E9AE196313E000ADF2D5 /* CoreGraphics.framework in Frameworks */,
+				8436E9B0196313E000ADF2D5 /* UIKit.framework in Frameworks */,
+				8436E9AC196313E000ADF2D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8436E9C0196313E100ADF2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436E9C5196313E100ADF2D5 /* XCTest.framework in Frameworks */,
+				8436E9C7196313E100ADF2D5 /* UIKit.framework in Frameworks */,
+				8436E9C6196313E100ADF2D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8436E99F196313E000ADF2D5 = {
+			isa = PBXGroup;
+			children = (
+				8436E9B1196313E000ADF2D5 /* TaskRabbit */,
+				8436E9CA196313E100ADF2D5 /* TaskRabbitTests */,
+				8436E9AA196313E000ADF2D5 /* Frameworks */,
+				8436E9A9196313E000ADF2D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8436E9A9196313E000ADF2D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9A8196313E000ADF2D5 /* TaskRabbit.app */,
+				8436E9C3196313E100ADF2D5 /* TaskRabbitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8436E9AA196313E000ADF2D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9AB196313E000ADF2D5 /* Foundation.framework */,
+				8436E9AD196313E000ADF2D5 /* CoreGraphics.framework */,
+				8436E9AF196313E000ADF2D5 /* UIKit.framework */,
+				8436E9C4196313E100ADF2D5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8436E9B1196313E000ADF2D5 /* TaskRabbit */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9BA196313E000ADF2D5 /* JPAppDelegate.h */,
+				8436E9BB196313E000ADF2D5 /* JPAppDelegate.m */,
+				8436E9DA196314AD00ADF2D5 /* Base */,
+				8436E9DD196314CE00ADF2D5 /* Task */,
+				8436E9E1196314CE00ADF2D5 /* NearBy */,
+				8436E9E5196314CE00ADF2D5 /* Announce */,
+				8436EA021963197400ADF2D5 /* More */,
+				8436E9B2196313E000ADF2D5 /* Supporting Files */,
+			);
+			path = TaskRabbit;
+			sourceTree = "<group>";
+		};
+		8436E9B2196313E000ADF2D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9BD196313E000ADF2D5 /* Images.xcassets */,
+				8436EA0919631B4900ADF2D5 /* Opensource */,
+				8436E9DB196314B600ADF2D5 /* Utils */,
+				8436E9B3196313E000ADF2D5 /* TaskRabbit-Info.plist */,
+				8436E9B4196313E000ADF2D5 /* InfoPlist.strings */,
+				8436E9B7196313E000ADF2D5 /* main.m */,
+				8436E9B9196313E000ADF2D5 /* TaskRabbit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8436E9CA196313E100ADF2D5 /* TaskRabbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9D0196313E100ADF2D5 /* TaskRabbitTests.m */,
+				8436E9CB196313E100ADF2D5 /* Supporting Files */,
+			);
+			path = TaskRabbitTests;
+			sourceTree = "<group>";
+		};
+		8436E9CB196313E100ADF2D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9CC196313E100ADF2D5 /* TaskRabbitTests-Info.plist */,
+				8436E9CD196313E100ADF2D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8436E9DA196314AD00ADF2D5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9E91963150400ADF2D5 /* JPBaseViewController.h */,
+				8436E9EA1963150400ADF2D5 /* JPBaseViewController.m */,
+				8436E9EC1963153400ADF2D5 /* JPMainTabBarView.h */,
+				8436E9ED1963153400ADF2D5 /* JPMainTabBarView.m */,
+				8436E9EF196315A500ADF2D5 /* JPMenuViewController.h */,
+				8436E9F0196315A500ADF2D5 /* JPMenuViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8436E9DB196314B600ADF2D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9F21963161F00ADF2D5 /* JPMacro.h */,
+				8436E9F3196316BD00ADF2D5 /* JPDataUtility.h */,
+				8436E9F4196316BD00ADF2D5 /* JPDataUtility.m */,
+				8436E9F61963173300ADF2D5 /* JPDateUtility.h */,
+				8436E9F71963173300ADF2D5 /* JPDateUtility.m */,
+				8436E9F9196317A600ADF2D5 /* JPFileUtility.h */,
+				8436E9FA196317A600ADF2D5 /* JPFileUtility.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8436E9DD196314CE00ADF2D5 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9DE196314CE00ADF2D5 /* Controllers */,
+				8436E9DF196314CE00ADF2D5 /* Models */,
+				8436E9E0196314CE00ADF2D5 /* Views */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		8436E9DE196314CE00ADF2D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8436EA1319631CB400ADF2D5 /* JPTaskViewController.h */,
+				8436EA1419631CB400ADF2D5 /* JPTaskViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8436E9DF196314CE00ADF2D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8436E9E0196314CE00ADF2D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8436E9E1196314CE00ADF2D5 /* NearBy */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9E2196314CE00ADF2D5 /* Controllers */,
+				8436E9E3196314CE00ADF2D5 /* Models */,
+				8436E9E4196314CE00ADF2D5 /* Views */,
+			);
+			path = NearBy;
+			sourceTree = "<group>";
+		};
+		8436E9E2196314CE00ADF2D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8436EA1019631C7400ADF2D5 /* JPNearByViewController.h */,
+				8436EA1119631C7400ADF2D5 /* JPNearByViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8436E9E3196314CE00ADF2D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8436E9E4196314CE00ADF2D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8436E9E5196314CE00ADF2D5 /* Announce */ = {
+			isa = PBXGroup;
+			children = (
+				8436E9E6196314CE00ADF2D5 /* Controllers */,
+				8436E9E7196314CE00ADF2D5 /* Models */,
+				8436E9E8196314CE00ADF2D5 /* Views */,
+			);
+			path = Announce;
+			sourceTree = "<group>";
+		};
+		8436E9E6196314CE00ADF2D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8436EA0D19631C4D00ADF2D5 /* JPAnnounceViewController.h */,
+				8436EA0E19631C4D00ADF2D5 /* JPAnnounceViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8436E9E7196314CE00ADF2D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8436E9E8196314CE00ADF2D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8436EA021963197400ADF2D5 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				8436EA06196319C400ADF2D5 /* JPMoreViewController.h */,
+				8436EA07196319C400ADF2D5 /* JPMoreViewController.m */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		8436EA0919631B4900ADF2D5 /* Opensource */ = {
+			isa = PBXGroup;
+			children = (
+				8436EA0B19631B5200ADF2D5 /* JPSlideViewController.h */,
+				8436EA0A19631B5200ADF2D5 /* JPSlideViewController.m */,
+			);
+			path = Opensource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8436E9A7196313E000ADF2D5 /* TaskRabbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8436E9D4196313E100ADF2D5 /* Build configuration list for PBXNativeTarget "TaskRabbit" */;
+			buildPhases = (
+				8436E9A4196313E000ADF2D5 /* Sources */,
+				8436E9A5196313E000ADF2D5 /* Frameworks */,
+				8436E9A6196313E000ADF2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskRabbit;
+			productName = TaskRabbit;
+			productReference = 8436E9A8196313E000ADF2D5 /* TaskRabbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8436E9C2196313E100ADF2D5 /* TaskRabbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8436E9D7196313E100ADF2D5 /* Build configuration list for PBXNativeTarget "TaskRabbitTests" */;
+			buildPhases = (
+				8436E9BF196313E100ADF2D5 /* Sources */,
+				8436E9C0196313E100ADF2D5 /* Frameworks */,
+				8436E9C1196313E100ADF2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8436E9C9196313E100ADF2D5 /* PBXTargetDependency */,
+			);
+			name = TaskRabbitTests;
+			productName = TaskRabbitTests;
+			productReference = 8436E9C3196313E100ADF2D5 /* TaskRabbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8436E9A0196313E000ADF2D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JunePartner;
+				TargetAttributes = {
+					8436E9C2196313E100ADF2D5 = {
+						TestTargetID = 8436E9A7196313E000ADF2D5;
+					};
+				};
+			};
+			buildConfigurationList = 8436E9A3196313E000ADF2D5 /* Build configuration list for PBXProject "TaskRabbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8436E99F196313E000ADF2D5;
+			productRefGroup = 8436E9A9196313E000ADF2D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8436E9A7196313E000ADF2D5 /* TaskRabbit */,
+				8436E9C2196313E100ADF2D5 /* TaskRabbitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8436E9A6196313E000ADF2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436E9B6196313E000ADF2D5 /* InfoPlist.strings in Resources */,
+				8436E9BE196313E000ADF2D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8436E9C1196313E100ADF2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436E9CF196313E100ADF2D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8436E9A4196313E000ADF2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436EA0C19631B5200ADF2D5 /* JPSlideViewController.m in Sources */,
+				8436EA1519631CB400ADF2D5 /* JPTaskViewController.m in Sources */,
+				8436E9FB196317A600ADF2D5 /* JPFileUtility.m in Sources */,
+				8436E9BC196313E000ADF2D5 /* JPAppDelegate.m in Sources */,
+				8436E9EB1963150400ADF2D5 /* JPBaseViewController.m in Sources */,
+				8436EA08196319C400ADF2D5 /* JPMoreViewController.m in Sources */,
+				8436E9F1196315A500ADF2D5 /* JPMenuViewController.m in Sources */,
+				8436E9B8196313E000ADF2D5 /* main.m in Sources */,
+				8436E9F5196316BD00ADF2D5 /* JPDataUtility.m in Sources */,
+				8436EA0F19631C4D00ADF2D5 /* JPAnnounceViewController.m in Sources */,
+				8436EA1219631C7400ADF2D5 /* JPNearByViewController.m in Sources */,
+				8436E9EE1963153400ADF2D5 /* JPMainTabBarView.m in Sources */,
+				8436E9F81963173300ADF2D5 /* JPDateUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8436E9BF196313E100ADF2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436E9D1196313E100ADF2D5 /* TaskRabbitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8436E9C9196313E100ADF2D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8436E9A7196313E000ADF2D5 /* TaskRabbit */;
+			targetProxy = 8436E9C8196313E100ADF2D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8436E9B4196313E000ADF2D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8436E9B5196313E000ADF2D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8436E9CD196313E100ADF2D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8436E9CE196313E100ADF2D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8436E9D2196313E100ADF2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8436E9D3196313E100ADF2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8436E9D5196313E100ADF2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskRabbit/TaskRabbit-Prefix.pch";
+				INFOPLIST_FILE = "TaskRabbit/TaskRabbit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8436E9D6196313E100ADF2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskRabbit/TaskRabbit-Prefix.pch";
+				INFOPLIST_FILE = "TaskRabbit/TaskRabbit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8436E9D8196313E100ADF2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaskRabbit.app/TaskRabbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskRabbit/TaskRabbit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TaskRabbitTests/TaskRabbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8436E9D9196313E100ADF2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaskRabbit.app/TaskRabbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskRabbit/TaskRabbit-Prefix.pch";
+				INFOPLIST_FILE = "TaskRabbitTests/TaskRabbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8436E9A3196313E000ADF2D5 /* Build configuration list for PBXProject "TaskRabbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8436E9D2196313E100ADF2D5 /* Debug */,
+				8436E9D3196313E100ADF2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8436E9D4196313E100ADF2D5 /* Build configuration list for PBXNativeTarget "TaskRabbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8436E9D5196313E100ADF2D5 /* Debug */,
+				8436E9D6196313E100ADF2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8436E9D7196313E100ADF2D5 /* Build configuration list for PBXNativeTarget "TaskRabbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8436E9D8196313E100ADF2D5 /* Debug */,
+				8436E9D9196313E100ADF2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8436E9A0196313E000ADF2D5 /* Project object */;
+}
